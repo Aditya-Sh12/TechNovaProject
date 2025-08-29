@@ -1,0 +1,34 @@
+{% include 'Header.html' %}
+
+
+<!-- Contact Info & Form -->
+<section class="py-5 bg-white">
+  <div class="container">
+    <div class="row g-12">
+
+      <!-- Contact Form -->
+      <div class="col-md-7">
+        <h2 class="section-title mb-3">Enter no. to calculate</h2>
+        {% comment %} <form method="post"> {% endcomment %}
+        <form>
+          {% csrf_token %}
+          <div class="mb-3">
+            <label for="name" class="form-label">First Number *</label>
+            <input type="text" class="form-control" name="FirstNumber" placeholder="Enter First Number" value="{{Num1}}" required>
+          </div>
+          <div class="mb-3">
+            <label for="name" class="form-label">Second Number *</label>
+            <input type="text" class="form-control" name="SecondNumber" placeholder="Enter Second Number" value="{{Num2}}" required>
+          </div>
+          <button type="submit" class="btn btn-primary px-4">Calculate</button>
+          <div class="mb-3">
+            <label for="name" class="form-label">Result</label>
+            <input type="text" class="form-control" name="Result" value="{{Sum}}" disabled>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+

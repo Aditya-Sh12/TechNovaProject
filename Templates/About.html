@@ -1,0 +1,139 @@
+{% extends 'base.html' %}
+
+{% block content  %}
+
+
+<!-- Banner -->
+<section class="page-banner">
+  <div class="container">
+    {% comment %} <h1>About Us</h1> {% endcomment %}
+    <h1>{{requestID}}</h1> 
+    <p class="lead">Who we are. What we believe. How we innovate.</p>
+  </div>
+</section>
+
+<!-- Company Overview -->
+<section class="py-5 bg-white">
+  <div class="container">
+    <h2 class="section-title mb-4">Company Overview</h2>
+    <p>TechNova Solutions is a full-stack software development company founded in 2020, headquartered in Bengaluru, India. We specialize in delivering high-performance technology solutions including custom web applications, mobile apps, enterprise software, and scalable cloud platforms. With a passion for innovation, we’ve served 70+ global clients and delivered 150+ successful projects across industries such as fintech, healthcare, education, and logistics.</p>
+    <p>Our talented engineers and designers collaborate with clients to craft exceptional digital experiences and long-term value. Whether it’s launching a startup or modernizing a legacy system, TechNova is your partner in technology-driven growth.</p>
+  </div>
+</section>
+
+<!-- Mission & Vision -->
+<section class="py-5">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="card p-4 h-100">
+          <h4 class="section-title">Our Mission</h4>
+          <p>To empower businesses through innovative, secure, and scalable digital products that transform operations and unlock growth opportunities.</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card p-4 h-100">
+          <h4 class="section-title">Our Vision</h4>
+          <p>To become a global leader in smart software development by delivering transformative technology and fostering long-term client partnerships.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Core Values -->
+<section class="py-5 bg-white">
+  <div class="container">
+    <h2 class="section-title mb-4">Our Core Values</h2>
+    <div class="row g-4">
+      <div class="col-md-3">
+        <div class="card p-3 h-100 text-center">
+          <h5>Integrity</h5>
+          <p>We believe in doing the right thing with honesty, transparency, and accountability.</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card p-3 h-100 text-center">
+          <h5>Innovation</h5>
+          <p>We constantly explore new technologies to build smarter, future-ready solutions.</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card p-3 h-100 text-center">
+          <h5>Customer Focus</h5>
+          <p>We prioritize client goals, offering tailored solutions and measurable results.</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card p-3 h-100 text-center">
+          <h5>Excellence</h5>
+          <p>We commit to quality and continuous improvement in everything we do.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Our Team -->
+<section class="py-5">
+  <div class="container">
+    <h2 class="section-title mb-4">Meet Our Team</h2>
+    <div class="row g-4 text-center">
+      <div class="col-md-3">
+        <img src="https://randomuser.me/api/portraits/men/32.jpg" class="rounded-circle mb-3" width="120" height="120">
+        <h6>Rohit Mehra</h6>
+        <small>Founder & CEO</small>
+      </div>
+      <div class="col-md-3">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" class="rounded-circle mb-3" width="120" height="120">
+        <h6>Priya Sharma</h6>
+        <small>CTO</small>
+      </div>
+      <div class="col-md-3">
+        <img src="https://randomuser.me/api/portraits/men/45.jpg" class="rounded-circle mb-3" width="120" height="120">
+        <h6>Karan Gupta</h6>
+        <small>Lead Designer</small>
+      </div>
+      <div class="col-md-3">
+        <img src="https://randomuser.me/api/portraits/women/51.jpg" class="rounded-circle mb-3" width="120" height="120">
+        <h6>Neha Jain</h6>
+        <small>Project Manager</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Technologies Used -->
+<section class="py-5 bg-white">
+  <div class="container">
+    <h2 class="section-title mb-4">Technologies We Use</h2>
+    <div class="row g-4">
+      <div class="col-md-3">
+        <div class="card p-3 text-center">
+          <h6>Python / Django</h6>
+          <p class="small">Robust backend development for APIs and web apps.</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card p-3 text-center">
+          <h6>React / Angular</h6>
+          <p class="small">Modern JavaScript frameworks for responsive frontends.</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card p-3 text-center">
+          <h6>AWS / Azure</h6>
+          <p class="small">Cloud architecture, scaling, CI/CD, DevOps.</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card p-3 text-center">
+          <h6>Flutter / Kotlin</h6>
+          <p class="small">Native and cross-platform mobile development.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock  %}

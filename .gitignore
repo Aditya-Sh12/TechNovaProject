@@ -1,0 +1,11 @@
+# Virtualenv
+venv/
+ENV/
+env/
+.venv/
+*.env
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
