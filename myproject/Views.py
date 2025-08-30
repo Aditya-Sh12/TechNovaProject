@@ -5,7 +5,7 @@ def home(request):
     data = {
         "ContactName" : ["Aarav", "Vivaan", "Aditya", "Vihaan", "Reyansh", "Ayaan", "Krishna", "Ishaan","Zoya", "Anaya", "Diya", "Saanvi", "Mira", "Kiara", "Myra", "Sara", "Kavya", "Tara"]
     }
-    return render(request, 'home.html')
+    return render(request, 'Home.html')
     # return render(request, 'forloop&IfCondition.html', data)
     # return HttpResponse('This is home page')
 
